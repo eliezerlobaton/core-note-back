@@ -32,7 +32,7 @@ export class NotesService {
       });
     }
 
-    queryBuilder.orderBy('note.favorite', 'DESC');
+    // queryBuilder.orderBy('note.favorite', 'DESC');
 
     const notes = await queryBuilder.getMany();
     return notes;

@@ -18,7 +18,7 @@ export class CreateNotes1722986728256 implements MigrationInterface {
             type: 'varchar',
           },
           {
-            name: 'description',
+            name: 'content',
             type: 'varchar',
           },
           {
@@ -27,7 +27,7 @@ export class CreateNotes1722986728256 implements MigrationInterface {
             default: false,
           },
           {
-            name: 'color_title',
+            name: 'color',
             type: 'varchar',
             isNullable: true,
           },

@@ -5,11 +5,8 @@ export class CreateNoteDto {
   title: string;
 
   @IsString()
-  description: string;
+  content: string;
 
   @IsBoolean()
   favorite: boolean;
-
-  @IsString()
-  color_title: string;
 }

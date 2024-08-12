@@ -9,13 +9,13 @@ export class Note {
   title: string;
 
   @Column()
-  description: string;
+  content: string;
 
   @Column({ default: false })
   favorite: boolean;
 
   @Column({ nullable: true })
-  color_title: string;
+  color: string;
 
   @Column({ default: () => 'CURRENT_TIMESTAMP' })
   created_at: Date;
