@@ -10,3 +10,9 @@ services:
       - '5432:5432'
     restart: always
     container_name: core-notes
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
