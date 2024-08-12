@@ -30,7 +30,7 @@ sistema: PostgreSQL
 servidor: colocar o nome do service que esta no arquivo compose.yml neste caso database
 usuario, senha e base de dados: são os mesmos que configuramos no arquivo env
 
-<img src="./admir.png" alt="Screeshot de admier"/>
+<img src="./admier.png" alt="Screeshot de admier"/>
 uma vez o conatiner esteja correndo de forma correta é hora de correr a migration para gerar a nossa tabela 
 ```bash
 $ pnpm run migrate
